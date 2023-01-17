@@ -2,7 +2,7 @@ import openai
 import telebot
 #можете изменить api ключ, но можете оставить этот просто вставив токен бота.
 # openai.api_key = "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"
-openai.api_key = "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"
+openai.api_key = "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"
 bot = telebot.TeleBot("5977852572:AAHLKt_fFANC__2Wfx1p5tpCxvsyg_5go6E")
 
 @bot.message_handler(commands=['start', 'help'])
